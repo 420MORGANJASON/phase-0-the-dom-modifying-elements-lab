@@ -7,7 +7,7 @@ describe("index.html", () => {
     it("has a 'newHeader' variable that points to node 'h1#victory'", () => {
       expect(newHeader.nodeName, "Make sure you create an <h1> with id 'victory'").eql('H1')
     });
-
+                  
     it("has a 'newHeader' variable that points to node 'h1#victory'", () => {
       expect(newHeader.id, "Make sure you create an <h1> with id 'victory'").eql('victory')
     });
@@ -18,3 +18,5 @@ describe("index.html", () => {
 
   });
 })
+
+
